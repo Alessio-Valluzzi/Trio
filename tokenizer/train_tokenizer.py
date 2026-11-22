@@ -16,7 +16,7 @@ VOCAB_SIZE = 32000
 OUTPUT = ROOT / "tokenizer" / "vocab.json"
 
 # CARICAMENTO DATASET DA TEXT_LOADER
-text = text_loader.get_data()
+text = text_loader.get_data("text.txt")
 
 if not text or not text.strip():
     raise ValueError("Il dataset è vuoto!")
