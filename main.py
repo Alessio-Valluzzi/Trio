@@ -1,2 +1,2 @@
-import tokenizer.train_tokenizer
+import tokenizer.tokenizer as tokenizer
 
