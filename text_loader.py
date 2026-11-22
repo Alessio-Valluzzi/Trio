@@ -6,7 +6,7 @@ dictionary = {}
 
 for file in os.listdir(addr):
     with open(addr + file, "r", encoding="utf-8") as f:
-        dictionary[file] = f.read().splitlines()
+        dictionary[file] = f.read()
 
 def get_data(what):
     try:
